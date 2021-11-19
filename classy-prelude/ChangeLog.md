@@ -1,3 +1,9 @@
+## 1.6.0
+
+* Removed `parseTime` as it has been removed in `time-1.10`. See
+  <https://hackage.haskell.org/package/time-1.12/changelog>
+  Users should use `parseTimeM True` instead.
+
 ## 1.5.0
 
 * Removed `alwaysSTM` and `alwaysSucceedsSTM`. See

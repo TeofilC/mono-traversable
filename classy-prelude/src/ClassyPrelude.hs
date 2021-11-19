@@ -190,7 +190,6 @@ import Data.Time
     , toGregorian
     , fromGregorian
     , formatTime
-    , parseTime
     , parseTimeM
     , getCurrentTime
     , defaultTimeLocale
